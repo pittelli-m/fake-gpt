@@ -1,0 +1,46 @@
+{
+	"expo": {
+		"name": "fake-gpt",
+		"slug": "fake-gpt",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"newArchEnabled": true,
+		"splash": {
+			"image": "./assets/splash-icon.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.pittelli-m.fake-gpt"
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			},
+			"edgeToEdgeEnabled": true,
+			"predictiveBackGestureEnabled": false
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"scheme": "fake-gpt",
+		"plugins": ["expo-router"],
+		"updates": {
+			"url": "https://u.expo.dev/2927bff4-9e07-4f4c-aba1-85d88d7655d2"
+		},
+		"runtimeVersion": {
+			"policy": "sdkVersion"
+		},
+		"extra": {
+			"router": {},
+			"eas": {
+				"projectId": "2927bff4-9e07-4f4c-aba1-85d88d7655d2"
+			}
+		},
+		"owner": "pittelli-m"
+	}
+}
